@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bikeBrandArray">
+        <item>Kawasaki</item>
+        <item>Honda</item>
+        <item>Yamaha</item>
+        <item>TVS</item>
+        <item>Triumph</item>
+        <item>KTM</item>
+        <item>Mahindra</item>
+        <item>Bajaj</item>
+        <item>Harley Davidson</item>
+        <item>Royal Enfield</item>
+        <item>Hyosung 650</item>
+        <item>Suzuki</item>
+        <item>Hero</item>
+        <item>Vespa</item>
+        <item>Ducati</item>
+        <item>Benelli</item>
+        <item>Other</item>
+    </string-array>
+</resources>

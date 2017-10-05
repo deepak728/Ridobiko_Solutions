@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#990000</color>
+    <color name="colorPrimaryDark">#b30000</color>
+    <color name="colorAccent">#b30000</color>
+    <color name="circleColor">#ffffff</color>
+    <color name="themeColor">#eb1e29</color>
+    <color name="themeAlt">#990000</color>
+    <color name="themeDark">#454545</color>
+    <color name="mygrey">#939597</color>
+    <color name="textColor">#ffffff</color>
+    <color name="textDark">#000000</color>
+
+    <color name="white">#ffffff</color>
+
+
+</resources>

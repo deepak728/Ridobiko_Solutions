@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f2f2f2"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/selectBikeButton"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CREATE TRIP"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="0dp"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:divider="@drawable/divider"
+                android:background="@drawable/shadow"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TRIP DETAILS"
+                    android:textColor="@color/textDark"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:padding="@dimen/widgetPadding"
+                    />
+
+
+                <Spinner
+                    android:id="@+id/cityList"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:background="@drawable/box_border"
+                    android:layout_margin="@dimen/widgetPadding"
+                    />
+
+                <EditText
+                    android:id="@+id/pickUpDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:inputType="date"
+                    android:hint="Pick Up Date"
+                    android:focusable="false"
+                    android:paddingLeft="@dimen/hintPadding"
+                    android:background="@drawable/box_border"
+                    android:layout_margin="@dimen/widgetPadding"
+
+                    />
+
+                <EditText
+                    android:id="@+id/dropDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:inputType="date"
+                    android:hint="Drop Date"
+                    android:focusable="false"
+                    android:paddingLeft="@dimen/hintPadding"
+                    android:background="@drawable/box_border"
+                    android:layout_margin="@dimen/widgetPadding"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PERSONAL DETAILS"
+                    android:textStyle="bold"
+                    android:textColor="@color/textDark"
+                    android:textSize="18sp"
+                    android:layout_margin="@dimen/widgetPadding"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:hint="Name"
+                    android:id="@+id/customerName"
+                    android:lines="1"
+                    android:background="@drawable/box_border"
+                    android:layout_margin="@dimen/widgetPadding"
+                    android:paddingLeft="@dimen/hintPadding"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:inputType="number"
+                    android:hint="Contact Number"
+                    android:id="@+id/mobile"
+                    android:lines="1"
+                    android:background="@drawable/box_border"
+                    android:layout_margin="@dimen/widgetPadding"
+                    android:paddingLeft="@dimen/hintPadding"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:hint="Email Id"
+                    android:id="@+id/email"
+                    android:inputType="textEmailAddress"
+                    android:lines="1"
+                    android:background="@drawable/box_border"
+                    android:layout_margin="@dimen/widgetPadding"
+                    android:paddingLeft="@dimen/hintPadding"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/widgetPadding"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ADDRESS:"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/textDark"
+                        android:textSize="@dimen/textMedium"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/editTextHeight"
+                            android:hint="State"
+                            android:lines="1"
+                            android:id="@+id/state"
+                            android:background="@drawable/box_border"
+                            android:layout_margin="@dimen/widgetPadding"
+                            android:paddingLeft="@dimen/hintPadding"/>
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/editTextHeight"
+                            android:hint="City"
+                            android:lines="1"
+                            android:id="@+id/city"
+                            android:background="@drawable/box_border"
+                            android:layout_margin="@dimen/widgetPadding"
+                            android:paddingLeft="@dimen/hintPadding"/>
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/editTextHeight"
+                            android:hint="Landmark"
+                            android:id="@+id/landmark"
+                            android:lines="1"
+                            android:background="@drawable/box_border"
+                            android:layout_margin="@dimen/widgetPadding"
+                            android:paddingLeft="@dimen/hintPadding"/>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/editTextHeight"
+                            android:hint="District"
+                            android:lines="1"
+                            android:id="@+id/district"
+                            android:background="@drawable/box_border"
+                            android:layout_margin="@dimen/widgetPadding"
+                            android:paddingLeft="@dimen/hintPadding"/>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/editTextHeight"
+                            android:inputType="number"
+                            android:hint="Pincode"
+                            android:lines="1"
+                            android:id="@+id/pincode"
+                            android:background="@drawable/box_border"
+                            android:layout_margin="@dimen/widgetPadding"
+                            android:paddingLeft="@dimen/hintPadding"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:hint="Id Name"
+                    android:lines="1"
+                    android:id="@+id/idName"
+                    android:background="@drawable/box_border"
+                    android:layout_margin="@dimen/widgetPadding"
+                    android:paddingLeft="@dimen/hintPadding"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:hint="Id Number"
+                    android:id="@+id/idNumber"
+                    android:lines="1"
+                    android:background="@drawable/box_border"
+                    android:layout_margin="@dimen/widgetPadding"
+                    android:paddingLeft="@dimen/hintPadding"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:hint="Driving License Number"
+                    android:id="@+id/DLNumber"
+                    android:lines="1"
+                    android:background="@drawable/box_border"
+                    android:layout_margin="@dimen/widgetPadding"
+                    android:paddingLeft="@dimen/hintPadding"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/selectBikeButton"
+        android:text="SELECT BIKE"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        />
+</RelativeLayout>
+
+

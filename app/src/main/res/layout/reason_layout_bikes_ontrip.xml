@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="Maintenance required" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line" />
+
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="20dp"
+       android:layout_height="wrap_content">
+       <CheckBox
+           android:id="@+id/checkBox1"
+           android:layout_width="wrap_content"
+           android:padding="5dp"
+           android:textSize="16sp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="Brake fail" />
+
+       <CheckBox
+           android:id="@+id/checkBox2"
+           android:padding="5dp"
+           android:textSize="16sp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="Brake fail" />
+       <CheckBox
+           android:id="@+id/checkBox3"
+           android:padding="5dp"
+           android:layout_width="wrap_content"
+           android:textSize="16sp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="Brake fail" />
+
+       <CheckBox
+           android:id="@+id/checkBox4"
+           android:padding="5dp"
+           android:layout_width="wrap_content"
+           android:textSize="16sp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="Brake fail" />
+       <CheckBox
+           android:id="@+id/checkBox5"
+           android:textSize="16sp"
+           android:padding="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="Brake fail" />
+
+       <CheckBox
+           android:id="@+id/checkBox6"
+           android:padding="5dp"
+           android:textSize="16sp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="Brake fail" />
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/comment"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:hint="Comment..."
+            android:background="@drawable/box_border"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="textPersonName"
+             />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_butt_reason"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:background="@color/themeDark"
+        android:textColor="@color/textColor"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
+</LinearLayout>

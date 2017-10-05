@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/shadow"
+    android:id="@+id/trip_history_layout"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:padding="5dp"
+       android:orientation="vertical"
+       android:layout_gravity="center"
+       android:layout_weight="1"
+       android:gravity="center"
+       android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/cust_name_th"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/textDark"
+           android:textSize="16sp"
+           android:padding="5dp"
+           android:gravity="center"
+           android:layout_weight="1"
+           android:text="Deepak Kumar" />
+       <TextView
+           android:id="@+id/cust_no_th"
+           android:layout_width="wrap_content"
+           android:textColor="@color/textDark"
+           android:padding="5dp"
+           android:layout_gravity="center"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:layout_weight="1"
+           android:text="7417185502" />
+
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:textColor="@color/textDark"
+            android:layout_weight="1"
+            android:text="Bikes" />
+        <TextView
+            android:id="@+id/no_of_bikes_th"
+            android:layout_width="wrap_content"
+            android:textColor="@color/textDark"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:text="5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pickUp_th"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="@color/textDark"
+            android:padding="5dp"
+            android:text="2/3/2017" />
+        <TextView
+            android:id="@+id/textt3"
+            android:layout_width="wrap_content"
+            android:textColor="@color/textDark"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="to" />
+        <TextView
+            android:id="@+id/dropUp_th"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textDark"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5/3/2017" />
+    </LinearLayout>
+
+</LinearLayout>

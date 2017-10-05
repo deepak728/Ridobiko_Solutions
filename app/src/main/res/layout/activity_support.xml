@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#f2f2f2"
+    android:layout_height="match_parent">
+     <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:background="@drawable/shadow"
+         android:layout_margin="10dp"
+         android:layout_height="match_parent"
+         android:id="@+id/linearLayout">
+
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:text="SUPPORT" />
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:id="@+id/make_call"
+         android:orientation="horizontal"
+         android:gravity="center"
+         android:layout_height="wrap_content">
+
+
+         <ImageView
+             android:id="@+id/imageView3"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             app:srcCompat="@drawable/call_us" />
+
+         <TextView
+             android:id="@+id/textView27"
+             android:layout_gravity="center"
+             android:textColor="@color/textDark"
+             android:layout_marginLeft="10dp"
+             android:textSize="20dp"
+             android:gravity="center"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="+91 8006359582" />
+     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/textDark"
+        android:layout_height="wrap_content"
+        android:text="Email: support@ridobiko.com" />
+
+         <TextView
+             android:id="@+id/textView23"
+             android:layout_width="match_parent"
+             android:textSize="20dp"
+             android:layout_gravity="center"
+             android:layout_marginTop="20dp"
+             android:gravity="center"
+             android:textStyle="bold"
+             android:layout_marginBottom="10dp"
+             android:textColor="@color/textDark"
+             android:layout_height="wrap_content"
+             android:text="Address" />
+
+         <TextView
+             android:id="@+id/textView21"
+             android:layout_width="match_parent"
+             android:textSize="18dp"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textColor="@color/textDark"
+             android:layout_height="wrap_content"
+             android:text="@string/address" />
+
+     </LinearLayout>
+
+       <TextView
+           android:id="@+id/textVi"
+           android:layout_width="match_parent"
+           android:textSize="20dp"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:textColor="@color/textDark"
+           android:layout_height="wrap_content"
+           android:text="@string/copyright"
+           android:layout_marginLeft="20dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginRight="20dp"
+           android:layout_marginBottom="30dp"
+           android:layout_alignBottom="@+id/linearLayout"
+           android:layout_alignEnd="@+id/linearLayout" />
+
+</RelativeLayout>

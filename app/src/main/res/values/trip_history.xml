@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="customerName">
+        <item>deepak Kumar</item>
+        <item>vipin singh dfghjfghkujli</item>
+        <item>vipin singh dfghjfghkujli</item>
+        <item>vipin singh dfghjfghkujli</item>
+        <item>vipin singh dfghjfghkujli</item>
+        <item>vipin singh dfghjfghkujli</item>
+        <item>vipin singh dfghjfghkujli</item>
+        <item>vipin singh dfghjfghkujli</item>
+        <item>vipin singh dfghjfghkujli</item>
+        <item>vipin singh dfghjfghkujli</item>
+    </string-array>
+    <string-array name="customerNo">
+        <item>7417185502</item>
+        <item>7417185502</item>
+        <item>7417185502</item>
+        <item>7417185502</item>
+        <item>7417185502</item>
+        <item>7417185502</item>
+        <item>7417185502</item>
+        <item>7417185502</item>
+        <item>7417185502</item>
+        <item>7417185502</item>
+    </string-array>
+    <string-array name="noOFBIKES">
+        <item>74</item>
+        <item>741</item>
+        <item>74</item>
+        <item>747</item>
+        <item>742</item>
+        <item>7</item>
+        <item>74</item>
+        <item>7417</item>
+        <item>502</item>
+        <item>72</item>
+    </string-array>
+    <string-array name="pickUpDate">
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+    </string-array>
+    <string-array name="DropDate">
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+        <item>02/03/2017 5:20 AM</item>
+    </string-array>
+</resources>

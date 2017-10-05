@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Kawasaki_Array">
+        <item></item>
+        <item>Kawasaki ER 6n</item>
+        <item>Ninja 650</item>
+        <item>Kawasaki-Z 800</item>
+        <item>VERSYS 650</item>
+        <item>Z 250</item>
+        <item>Kawasaki-Z 1000</item>
+        <item>Kawasaki Vulcan S</item>
+        <item>Kawasaki Ninja ZX 14R</item>
+        <item>Kawasaki Ninja ZX 10R</item>
+        <item>Kawasaki KX 250F</item>
+        <item>Kawasaki KX 100</item>
+        <item>Kawasaki KLX 110</item>
+        <item>Kawasaki Ninja H2</item>
+        <item>Kawasaki Ninja 1000</item>
+        <item>Kawasaki Ninja 300</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Honda_Array">
+        <item></item>
+        <item>Activa</item>
+        <item>Dio</item>
+        <item>Aviator</item>
+        <item>Shine</item>
+        <item>Navi</item>
+        <item>CBR 250</item>
+        <item>Dream Yuga 109CC</item>
+        <item>Honda CB 1000R Naked</item>
+        <item>Honda CBR 1000RR Fireblade</item>
+        <item>Honda CBR 150R Sports</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Yamaha_Array">
+        <item></item>
+        <item>FZS</item>
+        <item>Yamaha YZF R3</item>
+        <item>YBR</item>
+        <item>SZR</item>
+        <item>Gladiator</item>
+        <item>R15</item>
+        <item>Fascino</item>
+        <item>Fazer</item>
+        <item>Ray</item>
+        <item>VMAX</item>
+        <item>FZ</item>
+        <item>Cygnus alpha</item>
+        <item>YZF R1</item>
+        <item>Saluto</item>
+        <item>MT-09</item>
+        <item>FZ25</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="TVS_Array">
+        <item></item>
+        <item>Wego</item>
+        <item>Jupiter</item>
+        <item>Star City 100 CC</item>
+        <item>Apache RTR 160</item>
+        <item>Apache RTR 180</item>
+        <item>TVS Apache RTR 200 4V</item>
+        <item>SPORT</item>
+        <item>VICTOR</item>
+        <item>PEP PLUS</item>
+        <item>ZEST 110</item>
+        <item>XL 100</item>
+        <item>PHOENIX 125</item>
+        <item>STREAK</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Triumph_Array">
+        <item></item>
+        <item>Triumph street triple</item>
+        <item>TIGER 800 XR</item>
+        <item>Bonneville</item>
+        <item>Daytona</item>
+        <item>Thunderbird</item>
+        <item>Thruxton</item>
+        <item>Bonneville t 100</item>
+        <item>Daytona 675</item>
+        <item>Speed</item>
+        <item>Rocket III</item>
+        <item>Street twin</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="KTM_Array">
+        <item></item>
+        <item>RC 390</item>
+        <item>Duke 200</item>
+        <item>Duke 390</item>
+        <item>KTM RC 200</item>
+        <item>Duke 250</item>
+        <item>RC 390</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Mahindra_Array">
+        <item></item>
+        <item>Mojo 300 CC</item>
+        <item>Centuro</item>
+        <item>Rodeo</item>
+        <item>MOJO</item>
+        <item>GUSTO</item>
+        <item>DURO</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Bajaj_Array">
+        <item></item>
+        <item>Dominar</item>
+        <item>Pulsar 180</item>
+        <item>Avenger 220 Cruise</item>
+        <item>CT-100</item>
+        <item>Avenger Street 220</item>
+        <item>Pulsar 135</item>
+        <item>Pulsar 150</item>
+        <item>Pulsar 200 AS</item>
+        <item>Discover 100</item>
+        <item>Discover 100 M</item>
+        <item>Discover 125</item>
+        <item>Pulsar 220</item>
+        <item>Pulsar 220 RS</item>
+        <item>Pulsar 200 AS</item>
+        <item>PLATINA</item>
+        <item>V12</item>
+        <item>V15</item>
+        <item>Bajaj Avenger 150 Street</item>
+        <item>PULSAR 150 NS</item>
+        <item>PULSAR SS 400</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Harley_Davidson_Array">
+        <item></item>
+        <item>Forty Eight</item>
+        <item>Street Bob</item>
+        <item>IRON 883</item>
+        <item>STREET 750</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="RoyalEnfield_Array">
+        <item></item>
+        <item>Desert Storm 500CC</item>
+        <item>Standard 500 CC</item>
+        <item>Classic 350 CC</item>
+        <item>Himalayan</item>
+        <item>Thunderbird 350CC</item>
+        <item>Classic 500CC</item>
+        <item>Royal Enfield 350 CC</item>
+        <item>Electra 350</item>
+        <item>THUNDERBIRD-500</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Hyosung_650_Array">
+        <item></item>
+        <item>Hyosung 650</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Suzuki_Array">
+        <item></item>
+        <item>Gixxer 150 CC</item>
+        <item>Swish</item>
+        <item>Hayate</item>
+        <item>Access</item>
+        <item>New Access 125</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Hero_Array">
+        <item></item>
+        <item>Maestro</item>
+        <item>Splendor</item>
+        <item>Passion pro 125cc</item>
+        <item>Karizma</item>
+        <item>HF Deluxe 100cc</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Vepsa_Array">
+        <item></item>
+        <item>Vespa 150 SXL</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Ducati_Array">
+        <item></item>
+        <item>MONSTER 821</item>
+        <item>SCRAMBLER</item>
+        <item>HYPERSTRADA</item>
+        <item>Karizma</item>
+        <item>HF Deluxe 100cc</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Benelli_Array">
+        <item></item>
+        <item>TNT 600 GT</item>
+        <item>TNT 600I</item>
+        <item>TNT 300</item>
+        <item>Other</item>
+    </string-array>
+</resources>

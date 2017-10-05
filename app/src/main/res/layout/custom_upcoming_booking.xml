@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/shadow"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:id="@+id/upcoming_booking_layout"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/cust_name_th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textDark"
+                android:textSize="17sp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="Deepak Kumar" />
+            <TextView
+                android:id="@+id/cust_no_th"
+                android:layout_width="wrap_content"
+                android:textColor="@color/textDark"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:text="7417185502" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="5dp"
+                android:textColor="@color/textDark"
+                android:layout_weight="1"
+                android:text="Bikes" />
+            <TextView
+                android:id="@+id/no_of_bikes_th"
+                android:layout_width="wrap_content"
+                android:textColor="@color/textDark"
+                android:padding="5dp"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_weight="1"
+                android:text="5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/pickUp_th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="@color/textDark"
+                android:padding="5dp"
+                android:text="2/3/2017" />
+            <TextView
+                android:id="@+id/textt3"
+                android:layout_width="wrap_content"
+                android:textColor="@color/textDark"
+                android:textSize="13sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="to" />
+            <TextView
+                android:id="@+id/dropUp_th"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:textColor="@color/textDark"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5/3/2017" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/delete_upcoming_booking"
+            android:layout_width="match_parent"
+            android:textColor="@color/textColor"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:background="@drawable/button_background"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+        <Button
+            android:id="@+id/issue_upcoming_booking"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="16dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:background="@drawable/button_background"
+            android:layout_height="wrap_content"
+            android:text="Issue" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ridobiko</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_bikes">my_bikes</string>
+
+    <string name="title_activity_bikes__on__trip">Bikes_On_Trip</string>
+    <string name="title_activity_maintaince">Maintaince</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_edit_details">EditDetails</string>
+
+    <string name="title_activity_trip_history_details">trip_history_details</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_t_history">t_history</string>
+    <string name="gps_text">You won\'t have the problem of lost bikes anymore. GPS tracker can be installed to your bikes and you
+    can track your bike in real time.</string>
+    <string name="address">306-Sikka Complex\nBuilding No.5\nPreet Vihar Commercial Center\nDelhi 110092</string>
+
+    <string name="copyright"> © Ridobiko Solutions pvt. Ltd. | All rights reserved</string>
+</resources>

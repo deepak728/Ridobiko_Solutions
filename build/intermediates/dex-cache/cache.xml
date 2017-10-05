@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritik\Desktop\Ridobiko Solution\ridobiko (3)\ridobiko\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Ritik\Desktop\Ridobiko Solution\ridobiko (3)\ridobiko\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_da58afe1684bd06dc8578b57b1ed4e2abb553bf8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritik\Desktop\Ridobiko Solution\ridobiko (3)\ridobiko\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d41f567231c33c5bc7f7a07cf6e22cec29554fc5">
+        <dex dex="C:\Users\Ritik\Desktop\Ridobiko Solution\ridobiko (3)\ridobiko\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3f6400cb5bafc2d49d02c8ee9e3559fd6ac0369b\classes.dex" />
+    </item>
+
+</items>

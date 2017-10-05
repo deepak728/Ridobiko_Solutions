@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#f2f2f2"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/shadow"
+        android:layout_margin="10dp"
+        android:id="@+id/content_layout"
+        android:layout_above="@+id/button_layout"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cityText"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="@color/textDark"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="City"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/editTripButton"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/edit_trip"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="@dimen/widgetPadding">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pickUpDateText"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/textDark"
+                android:text="pick up date"
+                android:layout_margin="@dimen/widgetPadding"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/textDark"
+                android:textSize="13sp"
+                android:text="to"
+                android:layout_margin="@dimen/widgetPadding"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textDark"
+                android:id="@+id/dropDateText"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="drop date"
+
+                android:layout_margin="@dimen/widgetPadding"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/textMedium"
+            android:gravity="center"
+            android:textColor="@color/textDark"
+            android:text="Available Bikes"
+            android:layout_margin="@dimen/widgetPadding"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bikesListRecyclerView"
+            android:layout_margin="@dimen/widgetPadding"
+            >
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/nextButton"
+            android:text="NEXT"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="0dp"
+            android:background="@drawable/button_bg"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

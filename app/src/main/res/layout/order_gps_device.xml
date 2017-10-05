@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:background="@drawable/shadow"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:textColor="@color/textDark"
+            android:layout_height="wrap_content"
+            android:text="@string/gps_text" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:background="@drawable/shadow"
+        android:layout_height="wrap_content">
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_margin="10dp"
+                 android:padding="5dp"
+                 android:layout_height="wrap_content">
+                 <TextView
+                     android:id="@+id/textView23"
+                     android:layout_width="wrap_content"
+                     android:textSize="20sp"
+                     android:layout_weight="1"
+                     android:textColor="@color/textDark"
+                     android:layout_height="wrap_content"
+                     android:text="Cost of one GPS device :" />
+
+                 <TextView
+                     android:id="@+id/textView24"
+                     android:layout_width="wrap_content"
+                     android:layout_weight="1"
+                     android:textSize="20sp"
+                     android:gravity="center"
+                     android:textColor="@color/textDark"
+                     android:layout_height="wrap_content"
+                     android:text="₹ 4000" />
+             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@color/textDark"
+                android:layout_height="wrap_content"
+                android:text="No of GPS device :" />
+
+            <EditText
+                android:id="@+id/no_of_gps_device"
+                android:textColor="@color/textDark"
+                android:layout_weight="1"
+                android:maxLength="2"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                 />
+
+        </LinearLayout>
+            <TextView
+                android:background="@drawable/border_line"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="3"
+                android:textColor="@color/textDark"
+                android:layout_height="wrap_content"
+                android:text="Total Cost :" />
+
+            <TextView
+                android:id="@+id/total_cost"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/textDark"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/order_now"
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:textColor="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORDER NOW" />
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bikeName">
+        <item>honda</item>
+        <item>pulsar</item>
+        <item>hunk</item>
+        <item>avengers</item>
+        <item>honda</item>
+        <item>honda</item>
+        <item>honda</item>
+        <item>honda</item>
+        <item>honda</item>
+        <item>honda</item>
+    </string-array>
+
+    <string-array name="bikePlateNo">
+        <item>B78622</item>
+        <item>B78622</item>
+        <item>B78622</item>
+        <item>B78622</item>
+        <item>B78622</item>
+        <item>B78622</item>
+        <item>B78622</item>
+        <item>B78622</item>
+        <item>B78622</item>
+        <item>B78622</item>
+    </string-array>
+</resources>

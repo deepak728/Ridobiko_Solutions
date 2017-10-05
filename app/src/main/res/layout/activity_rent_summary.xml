@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f2f2f2"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shadow"
+    android:layout_margin="10dp"
+    android:layout_above="@+id/butt_layout"
+    android:id="@+id/content"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Rent Summary"
+        android:id="@+id/rentSum"
+        android:textColor="@color/textDark"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_above="@id/content"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/rentSummaryRecyclerView"
+        android:layout_below="@+id/text"
+        android:background="@drawable/box_border"
+        android:layout_margin="@dimen/widgetPadding"
+        android:layout_weight="7"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/box_border"
+        android:layout_weight="2"
+        android:layout_margin="@dimen/widgetPadding"
+        android:padding="@dimen/widgetPadding"
+       >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textColor="@color/textDark"
+            android:textSize="@dimen/textMedium"
+            android:text="Sub Total" />
+
+        <TextView
+            android:id="@+id/totalCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textDark"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView"
+            android:textStyle="bold"
+            android:textSize="@dimen/textMedium"
+            android:text="Rs. 458"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/box_border"
+        android:layout_weight="3"
+        android:weightSum="2"
+        android:layout_margin="@dimen/widgetPadding"
+        >
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:textColor="@color/textDark"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="ID Collected"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/textDark"
+            android:text="DL Collected"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Comment"
+        android:layout_weight="5"
+        android:padding="@dimen/widgetPadding"
+        android:background="@drawable/layout_bg"
+        android:layout_margin="@dimen/widgetPadding"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+       android:id="@+id/butt_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_height="50dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/submitButton"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+    </LinearLayout>
+</RelativeLayout>

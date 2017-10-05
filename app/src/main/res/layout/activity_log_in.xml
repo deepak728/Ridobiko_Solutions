@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context="com.example.ritik.instabike.Bikes_On_Trip">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/themeAlt"
+            android:gravity="center"
+            android:layout_weight="50"
+            android:layout_gravity="center"
+            android:layout_height="0dp">
+
+
+
+            <ImageView
+                android:id="@+id/app_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/app_logo"
+                />
+
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/textColor"
+                android:text="Partner app"
+                android:layout_below="@+id/app_logo"
+                android:layout_alignEnd="@+id/app_logo" />
+        </RelativeLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+
+            android:layout_weight="50"
+            android:background="#ffffff"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:layout_gravity="center_horizontal">
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#000000"
+                    android:layout_width="match_parent">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:hint="Email"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:maxLines="1"
+                        android:id="@+id/editText3" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#000000"
+                    android:layout_width="match_parent">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:hint="Password"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:ems="10"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:id="@+id/editText4" />
+                </android.support.design.widget.TextInputLayout>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                      android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"
+                    android:background="@color/colorPrimary"
+                    android:id="@+id/button3" />
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
